@@ -31,6 +31,8 @@ async function run() {
             const projects = await cursor.toArray();
             res.send(projects)
         })
+        
+      
 
         //POST API
         app.post('/projects', async(req, res)=>{
